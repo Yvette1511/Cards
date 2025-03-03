@@ -72,7 +72,7 @@ time.sleep(1)
 
 # game explanation
 if play == "n":
-    print("higher or lower is a guessing game using cards.")
+    print("Higher or Lower is a guessing game using cards.")
     time.sleep(2)
     print("Cards all have  value from 1 to 11.")
     time.sleep(2)
