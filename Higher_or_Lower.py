@@ -18,7 +18,6 @@ def card_value(card):
         return int(card[0])
 
 random.shuffle(deck)
-print(deck)
 
 # defines the game. The player is given a card, and is told to guess if the value of their current card is higher or lower than the next.
 
@@ -94,8 +93,6 @@ while win:
         break
     current = deck.pop(0)
     upcoming = deck.pop(0)
-    print(current)
-    print(upcoming)
     win = game(current, upcoming)
     if win:
         points += 1
